@@ -7,6 +7,9 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+/***
+ * This is the interface that extends the Jpa repository
+ */
 @Repository
 public interface IStudentRepository extends JpaRepository<Student, Integer> {
 
